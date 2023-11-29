@@ -1,0 +1,229 @@
+.pl-6 {
+  padding-left: 60px !important;
+}
+.banner {
+  background-image: url("../resources/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 1200px;
+}
+
+.navbar {
+}
+
+.navbar__url {
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  gap: 30px;
+  display: inline-flex;
+}
+
+.navbar__url--spacing {
+  margin-right: 50px;
+}
+
+.navbar_logo {
+  text-align: center;
+  /* padding-left: 60px !important; */
+  color: var(--colour-logo-primary, #37447e);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 38px;
+}
+
+.navbar_button {
+  width: 160px;
+  height: 26px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: var(--colour-main-blue-800, #111b47);
+  color: var(--colour-secondary-white-100-general, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.content {
+  padding-top: 310px;
+  /* padding-bottom: 550px; */
+}
+
+.content_header {
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 50 */
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 66px; /* 132% */
+  letter-spacing: 1px;
+}
+
+.content_text {
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Regular 18 */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.content_button {
+  color: var(--colour-secondary-white-100-general, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  border-radius: 2px;
+  width: 180px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.content_button_group {
+  margin-top: 70px;
+  display: flex;
+  gap: 35px;
+}
+
+.content_button--solid {
+  background: var(--colour-main-blue-800, #111b47);
+}
+
+.content_button--outline {
+  border: 2px solid var(--colour-main-blue-900, #091133);
+  color: var(--colour-main-blue-800, #111b47);
+  background-color: transparent;
+}
+
+.product_intro {
+  margin-top: 150px;
+}
+
+.product_intro_img {
+  width: 100%;
+}
+
+.product_intro_header {
+  padding-top: 70px;
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 36 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 133.333% */
+}
+
+.product_intro_text {
+  margin-top: 16px;
+  color: var(--colour-main-blue-400, #6f7cb2);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Regular 16 */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.product_intro__icon {
+  margin-top: 90px;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.product_intro__title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 16 */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.product_intro__detail {
+  color: var(--colour-main-grey-600, #5d6970);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Regular 12 */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.product_detail {
+  margin-top: 150px;
+}
+
+.product_detail__content {
+  padding-left: 130px !important;
+}
+
+.purchase {
+  margin-top: 150px;
+  height: auto;
+  background-color: #f3f5ff;
+  padding-bottom: 200px;
+}
+
+.purchase__content {
+  margin-top: 100px;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+}
+
+.footer {
+  height: auto;
+  flex-shrink: 0;
+  background: #e7ecff;
+  padding-bottom: 30px;
+}
+
+.footer__content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__content--text-gray {
+  color: var(--colour-main-grey-400, #939ea4);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 14 */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 171.429% */
+}
+
+.footer_icon {
+    margin-left: 50px;
+}
