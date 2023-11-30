@@ -53,6 +53,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
+  border: none;
 }
 
 .content {
@@ -96,6 +97,7 @@
   width: 180px;
   height: 36px;
   flex-shrink: 0;
+  border: none;
 }
 
 .content_button_group {
